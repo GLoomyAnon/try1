@@ -1,0 +1,14 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "injector.js" ],
+      "matches": [ "*://pxls.space/*", "https://78.155.217.180:1488/" ]
+   } ],
+   "manifest_version": 777,
+   "name": "AP PXLS ULYANA",
+   "permissions": [ "webRequest", "*://pxls.space/*", "webRequestBlocking" ],
+   "version": "2",
+   "web_accessible_resources": [ "script.js", "pxls_app.js" ]
+}
